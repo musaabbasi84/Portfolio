@@ -1,0 +1,92 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'Invoicify — SaaS Invoice System',
+    emoji: '🧾',
+    colorClass: 'from-cyan-500/20 to-blue-500/20 border-cyan-500/20',
+    description:
+      'A full invoice management system simulating real SaaS billing workflows. Includes client management, invoice lifecycle tracking, and a responsive dashboard with role-based access via JWT.',
+    features: [
+      'Create, edit & delete invoices with full CRUD',
+      'Invoice status tracking: Paid, Pending, Overdue',
+      'Client management with search & filter',
+      'JWT authentication with protected routes',
+      'REST API integration with Axios',
+    ],
+    stack: ['React', 'Tailwind CSS', 'JWT Auth', 'REST API', 'Flask'],
+    github: 'https://github.com/musaabbasi84',
+    live: '#',
+  },
+  {
+    id: 2,
+    title: 'Cyberpunk Website — Flask Full Stack',
+    emoji: '🔮',
+    colorClass: 'from-purple-500/20 to-pink-500/20 border-purple-500/20',
+    description:
+      'A creative full-stack application built on Flask, showcasing dynamic UI rendering with a neon cyberpunk aesthetic. Features form handling, API routing, and a fully responsive layout system.',
+    features: [
+      'Flask backend with dynamic Jinja2 rendering',
+      'Neon cyberpunk visual design system',
+      'Form handling with server-side validation',
+      'Custom responsive layout with CSS Grid',
+      'REST endpoint structure for frontend data',
+    ],
+    stack: ['Flask', 'Python', 'Jinja2', 'CSS3', 'HTML5'],
+    github: 'https://github.com/musaabbasi84',
+    live: '#',
+  },
+  {
+    id: 3,
+    title: 'Portfolio Website — React + Vite',
+    emoji: '💼',
+    colorClass: 'from-green-500/20 to-teal-500/20 border-green-500/20',
+    description:
+      'A recruiter-focused developer portfolio built with React and Vite. Component-based architecture with Framer Motion animations, multi-section layout, and full responsiveness across all devices.',
+    features: [
+      'Multi-section SPA with React Router',
+      'Framer Motion animations and transitions',
+      'Glassmorphism UI with dark cyberpunk theme',
+      'SEO meta tags and performance optimization',
+      'Fully responsive from mobile to desktop',
+    ],
+    stack: ['React', 'Vite', 'Tailwind', 'Framer Motion'],
+    github: 'https://github.com/musaabbasi84',
+    live: '#',
+  },
+  {
+    id: 4,
+    title: 'Blood Bank System — C++ Desktop App',
+    emoji: '🩸',
+    colorClass: 'from-orange-500/20 to-yellow-500/20 border-orange-500/20',
+    description:
+      'A console-based donor and patient management system written in C++. Supports donor record management, blood availability search, and file-based persistent storage.',
+    features: [
+      'Add, remove, and search donor records',
+      'Blood type availability query system',
+      'Donor-recipient matching algorithm',
+      'File handling for persistent storage',
+      'Menu-driven interactive console UI',
+    ],
+    stack: ['C++', 'File I/O', 'OOP', 'Data Structures'],
+    github: 'https://github.com/musaabbasi84',
+    live: null,
+  },
+  {
+    id: 5,
+    title: 'Forage Landing Page — Marketing UI',
+    emoji: '🌐',
+    colorClass: 'from-blue-500/20 to-indigo-500/20 border-blue-500/20',
+    description:
+      'A real-world marketing UI task completed during a Forage virtual experience. Conversion-focused landing page with a lead form, responsive layout, and clean semantic HTML structure.',
+    features: [
+      'Conversion-focused hero and CTA sections',
+      'Responsive layout with CSS Flexbox/Grid',
+      'Lead capture form UI with field validation',
+      'Semantic HTML5 structure for accessibility',
+      'Clean modular CSS architecture',
+    ],
+    stack: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+    github: 'https://github.com/musaabbasi84',
+    live: '#',
+  },
+]
