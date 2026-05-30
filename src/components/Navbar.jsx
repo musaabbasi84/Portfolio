@@ -58,10 +58,7 @@ export default function Navbar() {
         </ul>
 
         {/* Badge */}
-        <span className="hidden md:inline-flex items-center gap-2 bg-[rgba(0,245,255,0.1)] border border-[rgba(0,245,255,0.2)] text-[#00f5ff] text-xs px-3 py-1.5 rounded-full font-mono-custom font-medium">
-          <span className="w-1.5 h-1.5 rounded-full bg-[#00f5ff] animate-pulse2" />
-          Open to Work
-        </span>
+      
 
         {/* Mobile hamburger */}
         <button
