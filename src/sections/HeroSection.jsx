@@ -28,12 +28,7 @@ export default function HeroSection() {
 
       <div className="max-w-[1100px] mx-auto w-full relative z-10 pt-20 pb-12">
         {/* Available tag */}
-        <motion.div {...fadeUp(0.1)}>
-          <div className="inline-flex items-center gap-2 bg-[rgba(255,255,255,0.06)] border border-[rgba(0,245,255,0.18)] rounded-full px-4 py-1.5 mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#00f5ff] animate-pulse2" />
-            
-          </div>
-        </motion.div>
+       
 
         {/* Name */}
         <motion.h1
