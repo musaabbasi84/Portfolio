@@ -45,12 +45,7 @@ export default function AboutSection() {
               or full-stack roles where I can contribute real work from day one, grow fast, and collaborate with
               teams building meaningful products.
             </p>
-            <div className="pt-2">
-              <span className="inline-flex items-center gap-2 text-xs text-green-400 font-mono-custom bg-green-400/10 border border-green-400/25 px-3 py-1.5 rounded-full">
-                <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-                Currently open to opportunities
-              </span>
-            </div>
+            
           </motion.div>
 
           {/* Meta card */}
