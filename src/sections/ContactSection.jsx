@@ -18,12 +18,12 @@ const contactLinks = [
     display: '+92 344 5717833',
   },
   {
-    icon: '💼',
-    label: 'LinkedIn',
-    value: 'linkedin.com/in/musa-abbasi',
-    href: 'https://www.linkedin.com/in/musa-abbasi3001b7204/',
-    display: 'linkedin.com/in/musa-abbasi',
-  },
+  icon: '💼',
+  label: 'LinkedIn',
+  value: 'linkedin.com/in/musa-abbasi',
+  href: 'https://www.linkedin.com/in/musa-abbasi3001b7204/',
+  display: 'linkedin.com/in/musa-abbasi',
+},
   {
     icon: '🐙',
     label: 'GitHub',
